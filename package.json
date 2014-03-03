@@ -1,0 +1,18 @@
+{
+  "name": "jsonlint",
+  "main": "./lib/jsonlint",
+  "version": "0.0.0",
+  "private": true,
+  "description": "JSON Lint reports for your Atom editor",
+  "activationEvents": [
+    "jsonlint"
+  ],
+  "repository": "https://github.com/tcarlsen/atom-jsonlint",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "jsonlint": "^1.6.0"
+  }
+}
