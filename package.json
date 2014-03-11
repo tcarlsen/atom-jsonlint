@@ -8,6 +8,7 @@
     "jsonlint"
   ],
   "repository": "https://github.com/tcarlsen/atom-jsonlint",
+  "author": "tcarlsen",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
