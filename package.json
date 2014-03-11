@@ -4,9 +4,6 @@
   "version": "0.1.0",
   "private": true,
   "description": "JSON Lint reports for your Atom editor",
-  "activationEvents": [
-    "jsonlint"
-  ],
   "repository": "https://github.com/tcarlsen/atom-jsonlint",
   "author": "tcarlsen",
   "license": "MIT",
