@@ -1,5 +1,5 @@
 {
     ".editor.json": {
-        "cmd-alt-l": "jsonlint"
+        "cmd-alt-l": "jsonlint:lint"
     }
 }
