@@ -1,8 +1,0 @@
-{
-    ".platform-darwin .editor.json": {
-        "cmd-alt-l": "jsonlint:lint"
-    },
-    ".platform-win32 .editor.json, .platform-linux .editor.json": {
-        "ctrl-alt-l": "jsonlint:lint"
-    }
-}

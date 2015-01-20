@@ -1,0 +1,2 @@
+  "atom-text-editor[data-grammar='source json']":
+    "ctrl-alt-l": "jsonlint:lint"
