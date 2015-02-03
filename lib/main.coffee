@@ -11,12 +11,16 @@ module.exports =
     atom.commands.add "atom-workspace", "jsonlint:lint", linter
     atom.config.observe "jsonlint.validateOnSave", (value) ->
       if value is true
-        editor.buffer.on "saved", linter
+        atom.workspace.eachEditor (editor) ->
+          editor.buffer.on "saved", linter
       else
-        editor.buffer.off "saved", linter
+        atom.workspace.eachEditor (editor) ->
+          editor.buffer.off "saved", linter
 
     atom.config.observe "jsonlint.validateOnChange", (value) ->
       if value is true
-        editor.buffer.on "contents-modified", linter
+        atom.workspace.eachEditor (editor) ->
+          editor.buffer.on "contents-modified", linter
       else
-        editor.buffer.off "contents-modified", linter
+        atom.workspace.eachEditor (editor) ->
+          editor.buffer.off "contents-modified", linter
