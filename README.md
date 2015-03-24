@@ -1,5 +1,9 @@
 # JSON Lint
 
+![](https://img.shields.io/apm/v/jsonlint.svg)
+![](https://img.shields.io/apm/dm/jsonlint.svg)
+![](https://img.shields.io/apm/l/jsonlint.svg)
+
 > [JSON Lint](https://github.com/zaach/jsonlint) error reports for your [Atom](http://atom.io) editor.
 
 ![preview](https://cloud.githubusercontent.com/assets/145288/5816904/1d060f78-a0a6-11e4-8975-5c8d658f2cad.png)
