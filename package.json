@@ -1,7 +1,7 @@
 {
   "name": "jsonlint",
   "main": "./lib/main",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": true,
   "description": "JSON Lint reports for your Atom editor",
   "repository": "https://github.com/tcarlsen/atom-jsonlint",
