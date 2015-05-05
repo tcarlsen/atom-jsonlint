@@ -1,9 +1,15 @@
 linter = require "./linter"
 module.exports =
-  configDefaults:
-    validateOnSave: true
-    validateOnChange: false
-    hideOnNoErrors: false
+  config:
+    validateOnSave:
+      type: 'boolean'
+      default: true
+    validateOnChange:
+      type: 'boolean'
+      default: false
+    hideOnNoErrors:
+      type: 'boolean'
+      default: false
 
   activate: ->
     editor = atom.workspace.getActiveTextEditor()
