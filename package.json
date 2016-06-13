@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "jsonlint": "^1.6.2",
-    "atom-message-panel": "1.2.5"
+    "atom-message-panel": "1.2.7"
   }
 }
